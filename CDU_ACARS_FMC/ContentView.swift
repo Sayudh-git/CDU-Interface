@@ -44,6 +44,7 @@ enum cduAlphabets: String{
     case eigth = "8"
     case nine = "9"
     case zero = "0"
+    case test = "test"
     
 }
 
