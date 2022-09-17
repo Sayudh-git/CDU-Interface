@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B7BC5AA28CD2D14008E3D4B /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BC5A928CD2D14008E3D4B /* CustomButtonStyle.swift */; };
+		0BED5DE0283832D1006F6D5C /* LineSelectLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BED5DDF283832D0006F6D5C /* LineSelectLayout.swift */; };
 		0BF72D2A281BAC7900646325 /* CDU_ACARS_FMCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF72D29281BAC7900646325 /* CDU_ACARS_FMCApp.swift */; };
 		0BF72D2C281BAC7900646325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF72D2B281BAC7900646325 /* ContentView.swift */; };
 		0BF72D2E281BAC7C00646325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF72D2D281BAC7C00646325 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7BC5A928CD2D14008E3D4B /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		0BED5DDF283832D0006F6D5C /* LineSelectLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSelectLayout.swift; sourceTree = "<group>"; };
 		0BF72D26281BAC7900646325 /* CDU_ACARS_FMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDU_ACARS_FMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF72D29281BAC7900646325 /* CDU_ACARS_FMCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDU_ACARS_FMCApp.swift; sourceTree = "<group>"; };
 		0BF72D2B281BAC7900646325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,8 +98,10 @@
 		0BF72D28281BAC7900646325 /* CDU_ACARS_FMC */ = {
 			isa = PBXGroup;
 			children = (
+				0BED5DDF283832D0006F6D5C /* LineSelectLayout.swift */,
 				0BF72D29281BAC7900646325 /* CDU_ACARS_FMCApp.swift */,
 				0BF72D2B281BAC7900646325 /* ContentView.swift */,
+				0B7BC5A928CD2D14008E3D4B /* CustomButtonStyle.swift */,
 				0BF72D2D281BAC7C00646325 /* Assets.xcassets */,
 				0BF72D2F281BAC7C00646325 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7BC5AA28CD2D14008E3D4B /* CustomButtonStyle.swift in Sources */,
 				0BF72D2C281BAC7900646325 /* ContentView.swift in Sources */,
+				0BED5DE0283832D1006F6D5C /* LineSelectLayout.swift in Sources */,
 				0BF72D2A281BAC7900646325 /* CDU_ACARS_FMCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
